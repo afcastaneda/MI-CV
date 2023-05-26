@@ -16,6 +16,7 @@ function App() {
           <div className="card-content"></div>
           <h2>Probando</h2>
         </div>
+        <a class="waves-effect waves-light btn">button</a>
         
         {/*Llamando el componente Footer*/}
       <Footer1/>
