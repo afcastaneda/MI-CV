@@ -9,25 +9,18 @@ import Footer1 from './components/footer'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/*Llamando el componente Header*/}
-        <Header1></Header1>
+      
+      {/*Llamando el componente Header*/}
+      <Header1></Header1>
+        <div className="card">
+          <div className="card-content"></div>
+          <h2>Probando</h2>
+        </div>
+        
         {/*Llamando el componente Footer*/}
-        <Footer1/>
-        <p>
-          Editando <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reacting
-        </a>
-      </header>
+      <Footer1/>
     </div>
+    
   );
 }
 
