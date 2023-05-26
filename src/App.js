@@ -14,7 +14,7 @@ function App() {
         {/*Llamando el componente Header*/}
         <Header1></Header1>
         {/*Llamando el componente Footer*/}
-
+        <Footer1/>
         <p>
           Editando <code>src/App.js</code> and save to reload.
         </p>
